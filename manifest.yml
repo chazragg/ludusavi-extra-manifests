@@ -1,7 +1,7 @@
 ---
 RuneLite:
   files:
-    "C:/Users/chaz_/.runelite":
+    "<home>/.runelite":
       tags:
         - config
 World of Warcraft:
@@ -47,3 +47,10 @@ Prism Launcher:
     "<winAppData>/PrismLauncher/icons":
       tags:
         - config
+Ludusavi (Software):
+  files:
+    "<winAppData>/ludusavi":
+      tags:
+        - config
+      when:
+        - os: windows
