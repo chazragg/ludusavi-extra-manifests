@@ -1,0 +1,49 @@
+---
+RuneLite:
+  files:
+    "C:/Users/chaz_/.runelite":
+      tags:
+        - config
+World of Warcraft:
+  files:
+    "<base>/_retail_/Interface":
+      tags:
+        - config
+    "<base>/_retail_/WTF":
+      tags:
+        - config
+    "<base>/_retail_/Screenshots":
+      tags:
+        - config
+    "<base>/_classic_/Interface":
+      tags:
+        - config
+    "<base>/_classic_/WTF":
+      tags:
+        - config
+    "<base>/_classic_/Screenshots":
+      tags:
+        - config
+    "<base>/_classic_era_/Interface":
+      tags:
+        - config
+    "<base>/_classic_era_/WTF":
+      tags:
+        - config
+    "<base>/_classic_era_/Screenshots":
+      tags:
+        - config
+    "<base>/.ludusavi.yaml":
+      tags:
+        - config
+  id:
+    lutris: world-of-warcraft
+
+Prism Launcher:
+  files:
+    "<winAppData>/PrismLauncher/instances":
+      tags:
+        - config
+    "<winAppData>/PrismLauncher/icons":
+      tags:
+        - config
