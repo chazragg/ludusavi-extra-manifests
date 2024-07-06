@@ -33,9 +33,6 @@ World of Warcraft:
     "<base>/_classic_era_/Screenshots":
       tags:
         - config
-    "<base>/.ludusavi.yaml":
-      tags:
-        - config
   id:
     lutris: world-of-warcraft
 
