@@ -51,3 +51,11 @@ Ludusavi (Software):
         - config
       when:
         - os: windows
+YARG:
+  files:
+    "<winLocalAppData>/YARC":
+      tags:
+        - config
+      when:
+        - os: windows
+    
