@@ -6,17 +6,32 @@ RuneLite:
 
 World of Warcraft:
   files:
-    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
+    # Desktop (CachyOS) paths
+    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
       tags: [config]
-    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
+    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
       tags: [save, config]
-    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
+    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
       tags: [media]
-    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
+    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
       tags: [config]
-    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
+    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
       tags: [save, config]
-    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
+    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
+      tags: [media]
+
+    # Steam Deck default paths
+    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
+      tags: [config]
+    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
+      tags: [save, config]
+    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
+      tags: [media]
+    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
+      tags: [config]
+    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
+      tags: [save, config]
+    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
       tags: [media]
 
 Prism Launcher:
