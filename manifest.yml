@@ -6,14 +6,14 @@ RuneLite:
 
 World of Warcraft:
   files:
-    "<game>/*/Interface/**":
+    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/Interface":
       tags:
         - config
-    "<game>/*/WTF/**":
+    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/WTF":
       tags:
         - save
         - config
-    "<game>/*/Screenshots/**":
+    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots":
       tags:
         - media
 
