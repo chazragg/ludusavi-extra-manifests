@@ -6,7 +6,7 @@ RuneLite:
 
 World of Warcraft:
   installDir:
-    name: World of Warcraft
+    - World of Warcraft
   files:
     "<game>/*/Interface/**":
       tags:
