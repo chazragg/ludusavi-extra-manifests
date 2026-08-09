@@ -5,19 +5,29 @@ RuneLite:
         - config
 
 World of Warcraft:
-  installDir:
-    World of Warcraft: {}
   files:
-    "<game>/*/Interface/**":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/Interface/**":
       tags:
         - config
-    "<game>/*/WTF/**":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/WTF/**":
       tags:
         - save
         - config
-    "<game>/*/Screenshots/**":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/Screenshots/**":
       tags:
         - media
+    "<winDrive>/Program Files/World of Warcraft/*/Interface/**":
+      tags:
+        - config
+    "<winDrive>/Program Files/World of Warcraft/*/WTF/**":
+      tags:
+        - save
+        - config
+    "<winDrive>/Program Files/World of Warcraft/*/Screenshots/**":
+      tags:
+        - media
+  id:
+    lutris: world-of-warcraft
 
 Prism Launcher:
   files:
