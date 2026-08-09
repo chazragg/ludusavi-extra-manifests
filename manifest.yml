@@ -1,20 +1,21 @@
----
 RuneLite:
   files:
     "<home>/.runelite":
       tags:
         - config
+
 World of Warcraft:
-  installDir: World of Warcraft
+  installDir:
+    name: World of Warcraft
   files:
-    <game>/*/Interface/**:
+    "<game>/*/Interface/**":
       tags:
         - config
-    <game>/*/WTF/**:
+    "<game>/*/WTF/**":
       tags:
         - save
         - config
-    <game>/*/Screenshots/**:
+    "<game>/*/Screenshots/**":
       tags:
         - media
 
@@ -26,6 +27,7 @@ Prism Launcher:
     "<winAppData>/PrismLauncher/icons":
       tags:
         - config
+
 Ludusavi (Software):
   files:
     "<winAppData>/ludusavi":
@@ -33,6 +35,7 @@ Ludusavi (Software):
         - config
       when:
         - os: windows
+
 YARG:
   files:
     "<winLocalAppData>/YARC":
@@ -40,4 +43,3 @@ YARG:
         - config
       when:
         - os: windows
-    
