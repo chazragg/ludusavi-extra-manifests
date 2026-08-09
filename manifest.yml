@@ -6,17 +6,26 @@ RuneLite:
 
 World of Warcraft:
   files:
-    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/Interface":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/Interface/**":
       tags:
         - config
-    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/WTF":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/WTF/**":
       tags:
         - save
         - config
-    "<home>/data/Faugus/battlenet/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots":
+    "<winDrive>/Program Files (x86)/World of Warcraft/*/Screenshots/**":
       tags:
         - media
-
+    "<winDrive>/Program Files/World of Warcraft/*/Interface/**":
+      tags:
+        - config
+    "<winDrive>/Program Files/World of Warcraft/*/WTF/**":
+      tags:
+        - save
+        - config
+    "<winDrive>/Program Files/World of Warcraft/*/Screenshots/**":
+      tags:
+        - media
 Prism Launcher:
   files:
     "<winAppData>/PrismLauncher/instances":
