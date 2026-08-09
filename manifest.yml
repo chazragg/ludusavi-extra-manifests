@@ -5,34 +5,18 @@ RuneLite:
       tags:
         - config
 World of Warcraft:
+  installDir: World of Warcraft
   files:
-    "<base>/_retail_/Interface":
+    <winDrive>/Program Files (x86)/World of Warcraft/*/Interface/**:
       tags:
         - config
-    "<base>/_retail_/WTF":
+    <winDrive>/Program Files (x86)/World of Warcraft/*/WTF/**:
       tags:
+        - save
         - config
-    "<base>/_retail_/Screenshots":
+    <winDrive>/Program Files (x86)/World of Warcraft/*/Screenshots/**:
       tags:
-        - config
-    "<base>/_classic_/Interface":
-      tags:
-        - config
-    "<base>/_classic_/WTF":
-      tags:
-        - config
-    "<base>/_classic_/Screenshots":
-      tags:
-        - config
-    "<base>/_classic_era_/Interface":
-      tags:
-        - config
-    "<base>/_classic_era_/WTF":
-      tags:
-        - config
-    "<base>/_classic_era_/Screenshots":
-      tags:
-        - config
+        - media
   id:
     lutris: world-of-warcraft
 
