@@ -5,17 +5,15 @@ RuneLite:
         - config
 
 World of Warcraft:
-  installDir:
-    World of Warcraft: {}
   files:
-    "*/Interface/**":
+    "<game>/*/Interface/**":
       tags:
         - config
-    "*/WTF/**":
+    "<game>/*/WTF/**":
       tags:
         - save
         - config
-    "*/Screenshots/**":
+    "<game>/*/Screenshots/**":
       tags:
         - media
 
