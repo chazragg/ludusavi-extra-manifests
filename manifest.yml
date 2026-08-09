@@ -6,26 +6,19 @@ RuneLite:
 
 World of Warcraft:
   files:
-    "<winDrive>/Program Files (x86)/World of Warcraft/*/Interface/**":
-      tags:
-        - config
-    "<winDrive>/Program Files (x86)/World of Warcraft/*/WTF/**":
-      tags:
-        - save
-        - config
-    "<winDrive>/Program Files (x86)/World of Warcraft/*/Screenshots/**":
-      tags:
-        - media
-    "<winDrive>/Program Files/World of Warcraft/*/Interface/**":
-      tags:
-        - config
-    "<winDrive>/Program Files/World of Warcraft/*/WTF/**":
-      tags:
-        - save
-        - config
-    "<winDrive>/Program Files/World of Warcraft/*/Screenshots/**":
-      tags:
-        - media
+    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
+      tags: [config]
+    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
+      tags: [save, config]
+    "<home>/**/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
+      tags: [media]
+    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
+      tags: [config]
+    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
+      tags: [save, config]
+    "<home>/**/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
+      tags: [media]
+
 Prism Launcher:
   files:
     "<winAppData>/PrismLauncher/instances":
