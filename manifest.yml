@@ -6,33 +6,91 @@ RuneLite:
 
 World of Warcraft:
   files:
-    # Desktop (CachyOS) paths
-    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
-      tags: [config]
-    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
-      tags: [save, config]
-    "<home>/data/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
-      tags: [media]
-    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
-      tags: [config]
-    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
-      tags: [save, config]
-    "<home>/data/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
-      tags: [media]
+    # Captures WoW installed across any defined Wine/Faugus Prefix Root on Linux.
+    # <root> resolves to each configured otherWine root, so this is
+    # device-agnostic and covers every flavor (_retail_, _classic_, etc.).
+    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
+      when:
+        - os: linux
+      tags:
+        - config
+    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
+      when:
+        - os: linux
+      tags:
+        - config
+        - save
+    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
+      when:
+        - os: linux
+      tags:
+        - media
+    "<root>/drive_c/Program Files/World of Warcraft/*/Interface/**":
+      when:
+        - os: linux
+      tags:
+        - config
+    "<root>/drive_c/Program Files/World of Warcraft/*/WTF/**":
+      when:
+        - os: linux
+      tags:
+        - config
+        - save
+    "<root>/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
+      when:
+        - os: linux
+      tags:
+        - media
 
-    # Steam Deck default paths
-    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
-      tags: [config]
-    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
-      tags: [save, config]
-    "<home>/Faugus/*/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
-      tags: [media]
-    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/Interface/**":
-      tags: [config]
-    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/WTF/**":
-      tags: [save, config]
-    "<home>/Faugus/*/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
-      tags: [media]
+    # Windows paths, relative to the detected install directory (<base>).
+    "<base>/_retail_/Interface":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_retail_/WTF":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_retail_/Screenshots":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_/Interface":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_/WTF":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_/Screenshots":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_era_/Interface":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_era_/WTF":
+      when:
+        - os: windows
+      tags:
+        - config
+    "<base>/_classic_era_/Screenshots":
+      when:
+        - os: windows
+      tags:
+        - config
+  id:
+    lutris: world-of-warcraft
+
 
 Prism Launcher:
   files:
