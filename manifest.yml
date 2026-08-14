@@ -6,88 +6,18 @@ RuneLite:
 
 World of Warcraft:
   files:
-    # Captures WoW installed across any defined Wine/Faugus Prefix Root on Linux.
-    # <root> resolves to each configured otherWine root, so this is
-    # device-agnostic and covers every flavor (_retail_, _classic_, etc.).
-    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/Interface/**":
-      when:
-        - os: linux
+    # <root> resolves to each "Program Files*" folder under drive_c,
+    # so one entry covers both "Program Files" and "Program Files (x86)".
+    "<base>/World of Warcraft/*/Interface/**":
       tags:
         - config
-    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/WTF/**":
-      when:
-        - os: linux
+    "<base>/World of Warcraft/*/WTF/**":
       tags:
         - config
         - save
-    "<root>/drive_c/Program Files (x86)/World of Warcraft/*/Screenshots/**":
-      when:
-        - os: linux
+    "<base>/World of Warcraft/*/Screenshots/**":
       tags:
         - media
-    "<root>/drive_c/Program Files/World of Warcraft/*/Interface/**":
-      when:
-        - os: linux
-      tags:
-        - config
-    "<root>/drive_c/Program Files/World of Warcraft/*/WTF/**":
-      when:
-        - os: linux
-      tags:
-        - config
-        - save
-    "<root>/drive_c/Program Files/World of Warcraft/*/Screenshots/**":
-      when:
-        - os: linux
-      tags:
-        - media
-
-    # Windows paths, relative to the detected install directory (<base>).
-    "<base>/_retail_/Interface":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_retail_/WTF":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_retail_/Screenshots":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_/Interface":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_/WTF":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_/Screenshots":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_era_/Interface":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_era_/WTF":
-      when:
-        - os: windows
-      tags:
-        - config
-    "<base>/_classic_era_/Screenshots":
-      when:
-        - os: windows
-      tags:
-        - config
   id:
     lutris: world-of-warcraft
 
