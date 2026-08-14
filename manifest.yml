@@ -6,21 +6,18 @@ RuneLite:
 
 World of Warcraft:
   files:
-    # <root> resolves to each "Program Files*" folder under drive_c,
-    # so one entry covers both "Program Files" and "Program Files (x86)".
-    "<base>/World of Warcraft/*/Interface/**":
+    "<base>/*/Interface":
       tags:
         - config
-    "<base>/World of Warcraft/*/WTF/**":
+    "<base>/*/WTF":
       tags:
         - config
         - save
-    "<base>/World of Warcraft/*/Screenshots/**":
+    "<base>/*/Screenshots":
       tags:
         - media
   id:
     lutris: world-of-warcraft
-
 
 Prism Launcher:
   files:
